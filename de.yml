@@ -1,1 +1,14 @@
-{}
+Locale:
+  claimTicketButton: Übernehmen
+  unclaimTicketButton: Freigeben
+  ticketClaimedBy: Übernommen von
+  ticketUnClaimedBy: Freigegeben von
+  selectCategory: Wähle eine Kategorie...
+  selectReview: Wähle die Bewertung...
+  NoPermsMessage: Du verfügst leider nicht über die Berechtigung, diesen Befehl zu
+    verwenden!
+  RoleBlacklistedMsg: Deine Rolle steht auf der schwarzen Liste für die Erstellung
+    von Tickets!
+  AlreadyOpenTitle: Ticket bereits geöffnet
+  AlreadyOpenMsg: Du darfst nur **{max} Ticket(s)** gleichzeitig offen haben.
+  CloseTicketButton: Ticket schließen

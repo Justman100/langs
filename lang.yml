@@ -1,0 +1,139 @@
+Locale:
+  NoPermsMessage: "Sorry, you don't have permissions to use this command!" 
+  RoleBlacklistedTitle: "Blacklisted"
+  RoleBlacklistedMsg: "Your role is blacklisted from creating tickets!"
+  AlreadyOpenTitle: "Ticket Already Open"
+  AlreadyOpenMsg: "You may only have **{max} ticket(s)** open at a time." # Use {max} for the max amount of tickets a user is allowed to have open at the same time
+  CloseTicketButton: "Close Ticket"
+  ticketCreatedTitle: "Ticket Created"
+  ticketCreatedMsg : "Your ticket has been created in"
+  deletingTicketMsg: "Deleting ticket in {time} seconds" # Use {time} for the amount of time before a ticket gets deleted
+  PayPalInvoiceMsg: "Please click the button below to pay!"
+  PayPalUser: "User:"
+  PayPalPrice: "Price:"
+  PayPalService: "Service:"
+  PayPalPayInvoice: "Pay Invoice"
+  PayPalLogTitle: "Ticket Logs | PayPal Invoice"
+  NotInTicketChannel: "You're not in a ticket channel!"
+  ticketUserAdd: "Added **{user} ({username})** to the ticket." # Use {user} for @Example and {username} for Example#0000
+  ticketUserRemove: "Removed **{user} ({username})** from the ticket." # Use {user} for @Example and {username} for Example#0000
+  ticketRenamed: "This ticket has been renamed to **{newName}**!" # Use {newName} for the new ticket name
+  userAddTitle: "Ticket Logs | User Added"
+  userRemoveTitle: "Ticket Logs | User Removed"
+  ticketCloseTitle: "Ticket Logs | Ticket Closed"
+  ticketRenameTitle: "Ticket Logs | Ticket Renamed"
+  logsExecutor: "Executor"
+  logsTicket: "Ticket"
+  logsUser: "User"
+  logsTicketAuthor: "Ticket Creator"
+  logsClosedBy: "Closed by"
+  logsDeletedBy: "Deleted by"
+  restrictTicketClose: "You are not allowed to close this ticket!"
+  ticketPinned: "📌 This ticket has been pinned!"
+  ticketAlreadyPinned: "This ticket is already pinned!"
+  suggestionSubmit: "Your suggestion has been submitted, Thank you!"
+  suggestionTitle: "Suggestion"
+  suggestionStatsTitle: "Suggestions"
+  suggestionsTotal: "Total Suggestions:"
+  suggestionsTotalUpvotes: "Total Upvotes:"
+  suggestionsTotalDownvotes: "Total Downvotes:"
+  suggestionInformation: "Information"
+  suggestionUpvotes: "Upvotes:"
+  suggestionDownvotes: "Downvotes:"
+  suggestionFrom: "From:"
+  suggestionStatus: "Status:"
+  newSuggestionTitle: "💡 New Suggestion"
+  suggestionVoteResetTitle: "Vote Reset"
+  suggestionVoteReset: "Your vote on [this]({link}) suggestion has been reset!" # Use {link} for the suggestion message link
+  suggestionNoVoteTitle: "No Vote"
+  suggestionNoVote: "You haven't voted for [this]({link}) suggestion!" # Use {link} for the suggestion message link
+  suggestionDownvotedTitle: "Suggestion Downvoted"
+  suggestionDownvoted: "You successfully downvoted [this]({link}) suggestion!" # Use {link} for the suggestion message link
+  suggestionAlreadyVotedTitle: "Already Voted"
+  suggestionAlreadyVoted: "You have already voted on [this]({link}) suggestion! You can press the Reset Vote button to change your vote." # Use {link} for the suggestion message link
+  suggestionUpvotedTitle: "Suggestion Upvoted"
+  suggestionUpvoted: "You successfully upvoted [this]({link}) suggestion!" # Use {link} for the suggestion message link
+  suggestionAcceptedTitle: "Suggestion Accepted"
+  suggestionAccepted: "You successfully accepted [this]({link}) suggestion!" # Use {link} for the suggestion message link
+  suggestionDeniedTitle: "Suggestion Denied"
+  suggestionDenied: "You successfully denied [this]({link}) suggestion!" # Use {link} for the suggestion message link
+  suggestionNoPerms: "You are not allowed to accept or deny suggestions!"
+  suggestionCantVoteTitle: "Can't vote"
+  suggestionCantVote: "You can't vote for [this]({link}) suggestion because it has already been accepted or denied!" # Use {link} for the suggestion message link
+  cryptoTitle: "Crypto Payment"
+  cryptoMessage: "Scan the QR Code below or pay to the below address with the exact amount"
+  cryptoLogTitle: "Ticket Logs | Crypto Payment"
+  cryptoLogAddress: "Address"
+  restrictTicketClaim: "You are not allowed to claim this ticket!"
+  claimTicketButton: "Claim"
+  unclaimTicketButton: "Unclaim"
+  ticketClaimedBy: "Claimed by"
+  ticketUnClaimedBy: "Unclaimed by"
+  ticketClaimedTitle: "Ticket Claimed"
+  ticketUnClaimedTitle: "Ticket Unclaimed"
+  ticketNotClaimed: "This ticket has not been claimed!"
+  ticketClaimed: "This ticket has been claimed by {user}\nThey will be assisting you shortly!" # Use {user} for the user that claimed the ticket
+  ticketUnClaimed: "This ticket has been unclaimed by {user}" # Use {user} for the user that claimed the ticket
+  ticketDidntClaim: "You did not claim this ticket, Only the user that claimed this ticket can unclaim it! ({user})" # Use {user} for the user that claimed the ticket
+  ticketClaimedLog: "Ticket Logs | Ticket Claimed"
+  ticketUnClaimedLog: "Ticket Logs | Ticket Unclaimed"
+  claimTicketMsg: "You successfully claimed this ticket!"
+  unclaimTicketMsg: "You successfully unclaimed this ticket!"
+  totalMessagesLog: "Total Messages:"
+  totalTickets: "Total Tickets:"
+  openTickets: "Open Tickets:"
+  totalClaims: "Total Claims:"
+  guildStatistics: "Guild Statistics"
+  statsTickets: "Tickets"
+  alreadyBlacklisted: "{user} is already blacklisted!" # Use {user} for @Example and {username} for Example#0000
+  successfullyBlacklisted: "{user} has been successfully **blacklisted** from creating tickets!" # Use {user} for @Example and {username} for Example#0000
+  notBlacklisted: "{user} is not blacklisted!" # Use {user} for @Example and {username} for Example#0000
+  successfullyUnblacklisted: "{user} has been successfully **unblacklisted** from creating tickets!" # Use {user} for @Example and {username} for Example#0000
+  userBlacklistedTitle: "Blacklisted"
+  userBlacklistedMsg: "You are blacklisted from creating tickets!"
+  ticketInformationCloseDM: "• Ticket Information"
+  categoryCloseDM: "Category:"
+  claimedByCloseDM: "Claimed by:"
+  ticketClosedCloseDM: "Ticket Closed"
+  notClaimedCloseDM: "Not claimed"
+  ticketRating: "Ticket Rating"
+  totalReviews: "Total Reviews:"
+  averageRating: "Average Rating:"
+  cooldownEmbedMsgTitle: "Cooldown"
+  cooldownEmbedMsg: "You have to wait {time} before creating another ticket!" # Use {time} to get the time the user has to wait
+  selectCategory: "Select a category..."
+  selectReview: "Select a review..."
+  explainWhyRating: "Please explain why you are giving this rating"
+  ratingsStats: "Reviews"
+  cryptoQRCode: "QR Code"
+  userLeftTitle: "User Left"
+  userLeftDescription: "The user that created this ticket has left the server **({username})**" # Use {username} for Example#0000
+  reOpenButton: "Re-Open"
+  transcriptButton: "Transcript"
+  deleteTicketButton: "Delete"
+  ticketClosedBy: "This ticket was closed by {user} ({username})" # Use {user} for @Example and {username} for Example#0000
+  ticketReOpenedBy: "This ticket has been re-opened by {user} ({username})" # Use {user} for @Example and {username} for Example#0000
+  ticketTranscriptCategory: "Category"
+  ticketTranscript: "Ticket Transcript"
+  ticketName: "Ticket Name"
+  transcriptSaved: "Transcript saved to {channel}" # Use {channel} for the channel the transcript was saved to
+  transcriptSavedBy: "Saved by {user}" # Use {user} for the user that saved the transcript
+  notAllowedTranscript: "You are not allowed to create a transcript!"
+  notAllowedDelete: "You are not allowed to delete this ticket!"
+  StripeInvoiceTitle: "Stripe Invoice"
+  StripeLogTitle: "Ticket Logs | Stripe Invoice"
+  ticketForceDeleted: "Ticket Force Deleted"
+  reason: "Reason"
+  ticketClosedByReason: "This ticket was closed by {user} ({username})\n\n**Reason:**\n{reason}" # Use {user} for @Example and {username} for Example#0000, Use {reason} for the close reason {{USERNAME}}
+  successReason: "Successfully set reason for ticket closure!"
+  requiredRoleMissing: "You don't have the required role to open a ticket in this category!"
+  requiredRoleTitle: "Role Required"
+  notAnswered: "Not answered"
+  answeringQuestionsSuccess: "Thank you for answering the questions!" 
+  dmTranscriptField: "• Transcript"
+  dmTranscriptClickhere: "Click here"
+  viewTranscriptButton: "View Transcript"
+  averageCompletionTime: "Avg. Completion Time:"
+  averageResponseTime: "Avg. Response Time:"
+  whyCloseTicket: "Why are you closing this ticket?"
+  ticketCloseReasonTitle: "Ticket Close Reason"
